@@ -60,9 +60,10 @@ content = response.choices[0].message.content
 print("content:\n", content)
 
 ```
-### Example Outputs
+#### Example Outputs
 
-#### thinking=True
+**thinking=True**
+
 - As shown below, the output results contain `</think>`
 ```text
  Hmm, the user is asking which number is greater between 9.11 and 9.8. This seems straightforward, but I should be careful because decimals can sometimes confuse people. 
@@ -82,7 +83,7 @@ To compare them:
 
 Let me know if you need further clarification! 😊
 ```
-#### thinking=False
+**thinking=False**
 
 ```text
  The number **9.11** is greater than **9.8**.  
